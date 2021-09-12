@@ -1,0 +1,57 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
+.logo-web-header {
+  color: var(--accent-color);
+}
+.logo-studio-header {
+  color: #000000;
+}
+.logo-web-footer {
+  color: var(--accent-color);
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+.menu-nav .link {
+  color: var(--title-text-color);
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--accent-color);
+}
+.address-nav-header .link {
+  color: var(--primary-text-color);
+}
+.address-nav-header .link:hover,
+.address-nav-header .link:focus {
+  color: var(--accent-color);
+}
+.address-footer .address {
+  color: #ffffff;
+}
+.address-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.section .employee {
+  color: var(--title-text-color);
+}
+.section .project {
+  color: var(--title-text-color);
+}
+/* основной цвет background: #212121; */
+/* вторичный #757575; */
+/* акцент #2196F3 */
+/* белый color #FFFFFF */
