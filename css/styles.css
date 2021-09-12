@@ -2,6 +2,8 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --button-text-color: #000000;
+  --primari-bg-color: #ffffff;
 }
 body {
   background-color: #ffffff;
@@ -51,6 +53,20 @@ body {
 .section .project {
   color: var(--title-text-color);
 }
+/* button */
+.hero .button {
+  color: var(--primari-bg-color);
+  background-color: var(--accent-color);
+}
+.button {
+  background-color: #f5f4fa;
+}
+.button:hover,
+.button:focus {
+  color: var(--primari-bg-color);
+  background-color: var(--accent-color);
+}
+
 /* основной цвет background: #212121; */
 /* вторичный #757575; */
 /* акцент #2196F3 */
