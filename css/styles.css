@@ -31,6 +31,9 @@ body {
 .menu-nav .link:focus {
   color: var(--accent-color);
 }
+.menu-nav .link.current {
+  color: var(--accent-color);
+}
 .address-nav-header .link {
   color: var(--primary-text-color);
 }
