@@ -8,24 +8,50 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
 }
 .list {
   list-style: none;
 }
 .logo-web-header {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19x;
+  letter-spacing: 0.03em;
 }
 .logo-studio-header {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19x;
+  letter-spacing: 0.03em;
 }
 .logo-web-footer {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19x;
+  letter-spacing: 0.03em;
 }
 .logo-studio-footer {
   color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .menu-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus {
@@ -36,11 +62,19 @@ body {
 }
 .address-nav-header .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .address-nav-header .link:hover,
 .address-nav-header .link:focus {
   color: var(--accent-color);
 }
+.address-nav-header .link.mail {
+  color: var(--accent-color);
+}
+
 .address-footer .address {
   color: #ffffff;
 }
@@ -49,6 +83,11 @@ body {
 }
 .section-title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
 }
 .section .employee {
   color: var(--title-text-color);
@@ -60,16 +99,38 @@ body {
 .hero .button {
   color: var(--primari-bg-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button {
   background-color: #f5f4fa;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 63;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
   color: var(--primari-bg-color);
   background-color: var(--accent-color);
 }
-
+.hero-title {
+  color: var(--primari-bg-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 /* основной цвет background: #212121; */
 /* вторичный #757575; */
 /* акцент #2196F3 */
