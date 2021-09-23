@@ -121,7 +121,7 @@ body {
 }
 /* наша команда */
 .section-team {
-  background-color: var(--section-team);
+  background-color: var(--section-team-button);
 }
 
 .team-title {
